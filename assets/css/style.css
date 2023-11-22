@@ -3,11 +3,35 @@ body {
     padding: 0;
 }
 
+.heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 50px 0;
+}
+
+.subheading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer-subheading {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 20px;
 }
+
 
 .logo {
     display: inline-block;
@@ -44,10 +68,85 @@ ul li {
     margin: 5px auto;
  }
 
+.hero-section {
+    justify-content: center;
+}
+
 .hero-image {
     background: url("../images/carousel-img1.jpg") center center no-repeat;
     overflow: hidden;
-    width: 150%;
+    width: 100%;
+    max-width: 85%;
     height: 500px;
     background-size: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 80%;
+    margin: 0 auto; 
+}
+
+.grid-sm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20px;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    max-width: 80%;
+    margin-left: 15%;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, .2);
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid #0A0B0B;
+    background-color: #0A0B0B;
+    padding: 10px;
+    justify-content: center;
+}
+
+button a {
+    text-decoration: none;
+    color: #eaeaea;
+}
+
+footer p {
+    margin: 6px;
+    
+}
+
+.map {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-sm {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
 }
