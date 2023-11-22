@@ -1,6 +1,14 @@
+/*  --------- Global */
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #0172bb;
+}
+
+section {
+    margin-bottom: 50px;
 }
 
 .heading {
@@ -16,11 +24,6 @@ body {
     font-size: 20px;
 }
 
-.footer-subheading {
-    font-weight: 600;
-    font-size: 20px;
-}
-
 .icon {
     font-size: 30px;
 }
@@ -32,6 +35,26 @@ body {
     padding: 0 20px;
 }
 
+/*  --------- Colors */
+
+.light {
+    color:#eaeaea;
+}
+
+.bg-light {
+    background-color: #eaeaea;
+}
+
+.blue {
+    color:#0172bb;
+}
+
+.bg-blue {
+    background-color: #0172bb;
+}
+
+
+/*  -----------   Nav */
 
 .logo {
     display: inline-block;
@@ -48,11 +71,17 @@ body {
 ul li {
     padding: 0 20px;
 }
- li a {
-    text-decoration: none;
- }
 
- .callout {
+
+
+li a {
+    text-decoration: none;
+    color: #0172bb;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.callout {
     display: flex;
     justify-content: space-between;
     background-color: #eec802;
@@ -61,12 +90,12 @@ ul li {
     margin-top: 0;
     margin-bottom: 10px;
     border-radius: 2%;
- }
+}
 
- .callout-txt {
+.callout-txt {
     font-size: 16px; 
     margin: 5px auto;
- }
+}
 
 .hero-section {
     justify-content: center;
@@ -98,14 +127,6 @@ ul li {
     text-align: center;
 }
 
-.footer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    max-width: 80%;
-    margin-left: 15%;
-}
-
 .card {
     border-radius: 8px;
     border: 1px solid #eaeaea;
@@ -116,8 +137,8 @@ ul li {
 
 button {
     border-radius: 8px;
-    border: 1px solid #0A0B0B;
-    background-color: #0A0B0B;
+    border: 1px solid #0172bb;
+    background-color: #0172bb;
     padding: 10px;
     justify-content: center;
 }
@@ -130,6 +151,30 @@ button a {
 footer p {
     margin: 6px;
     
+}
+
+footer {
+    background-color: #0172bb;
+    color: #eaeaea;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    max-width: 80%;
+    margin-left: 15%;
+}
+
+.footer-subheading {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#copyright {
+    text-align: center;
 }
 
 .map {
