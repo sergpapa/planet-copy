@@ -27,6 +27,41 @@
     </section>
 
     <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo-164x644.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Αρχική<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Υπερεσίες
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Ψηφιακές Εκτυπώσεις</a>
+                        <a class="dropdown-item" href="#">Έκδοση Βιβλίου</a>
+                        <a class="dropdown-item" href="#">Κατασκευή Ιστοσελίδας</a>
+                        <a class="dropdown-item" href="#">Φωτοτυπία/Εκτυπώσεις</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Η Εταιρία</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Επικοινωνία</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Navbar 
     <nav class="container">
         <div class="logo">
             <a href="index.html"><img src="assets/images/logo-164x644.png" alt="logo" height="80"></a>
@@ -37,7 +72,7 @@
             <li><a href="#">Η Εταιρία</a></li>
             <li><a href="#">Επικοινωνία</a></li>
         </ul>
-    </nav>
+    </nav>-->
 
 
     <!-- Hero Section Carousel -->
@@ -72,11 +107,6 @@
         </a>
     </div>
 
-    <!-- Hero Section 
-    <section class="container hero-section">
-        <div class="hero-image">
-        </div>
-    </section>-->
 
     <!-- Main -->
     <!-- Our Services -->
@@ -88,28 +118,28 @@
                 <h3 class="subheading">Ψηφιακές Εκτυπώσεις</h3>
                 <p>Στο Planet Copy διαθέτουμε σύγρονο εξοπλησμό τελευαίας τεχνολογίας που μας εξασφαλίζει άριστη ποιότητα σάρωσης/εκτύπωσης
                 σε ολα τα μεγέθη και πάχη χαρτίου.</p>
-                <button><a href="#"><i class="fa-solid fa-circle-info"></i>  Δες Αναλυτικά</a></button>
+                <a href="#"><button id="button-1"><i class="fa-solid fa-circle-info"></i> Δες Αναλυτικά</button></a>
             </div>
             <div class="card">
                 <i class="fa-solid fa-book icon"></i>
                 <h3 class="subheading">Έκδοση Βιβλίου</h3>
                 <p>Είτε είσαι συγγραφέας είτε φοιτητής ή σπουδαστής, εξέδωσε το βιβλίο σου όπως ακριβώς το θέλεις, σε χαμηλό κόστος και
                 δίχως ελάχιστη ποσότητα αντιτύπων.</p>
-                <button><a href="#">Δες Αναλυτικά</a></button>
+                <a href="#"><button id="button-2"><i class="fa-solid fa-circle-info"></i> Δες Αναλυτικά</button></a>
             </div>
             <div class="card">
                 <i class="fa-solid fa-globe icon"></i>
                 <h3 class="subheading">Κατασκευή Ιστοσελίδας</h3>
                 <p>Σχεδιάζουμε και κατασκευάζουμε προσωπικές και επαγγελματικές ιστοσελίδες με μοντέρνο σχεδιασμό και ανταγωνιστικές τιμές,
                 προσφέροντας εξειδικευμένες λύσεις που ανταποκρίνονται στις ανάγκες σας.</p>
-                <button><a href="#">Δες Αναλυτικά</a></button>
+                <a href="#"><button id="button-3"><i class="fa-solid fa-circle-info"></i> Δες Αναλυτικά</button></a>
             </div>
             <div class="card">
                 <i class="fa-solid fa-print icon"></i>
                 <h3 class="subheading">Φωτοτυπία/Εκτυπώσεις</h3>
                 <p>Προσφέρουμε πλήρεις υπηρεσίες εκτύπωσης για κάθε ανάγκη. Από φωτοαντιγραφίες και τοπογραφικά σχέδια έως αφίσες,
                 βιβλιοδεσίες και σαρώσεις, καλύπτουμε όλες τις διαστάσεις και τις απαιτήσεις σας.</p>
-                <button><a href="#">Δες Αναλυτικά</a></button>
+                <a href="#"><button id="button-4"><i class="fa-solid fa-circle-info"></i> Δες Αναλυτικά</button></a>
             </div>
         </div>
     </section>
@@ -164,6 +194,9 @@
         <p id="copyright">© Copyright 2023</p>
     </footer>
 
+
+
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
     <!-- Bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

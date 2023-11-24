@@ -53,6 +53,12 @@ section {
     background-color: #0172bb;
 }
 
+.bg-gold {
+    background-color: #eec802;
+    border: 1px solid #eec802;
+    color: #856404;
+}
+
 
 /*  -----------   Nav */
 
@@ -81,6 +87,10 @@ li a {
     font-weight: 700;
 }
 
+li a:hover {
+    color: #eec802;
+}
+
 .callout {
     display: flex;
     justify-content: space-between;
@@ -95,19 +105,6 @@ li a {
 .callout-txt {
     font-size: 16px;
     margin: 5px auto;
-}
-
-.hero-section {
-    justify-content: center;
-}
-
-.hero-image {
-    background: url("../images/carousel-img1.jpg") center center no-repeat;
-    overflow: hidden;
-    width: 100%;
-    max-width: 85%;
-    height: 500px;
-    background-size: cover;
 }
 
 .grid {
@@ -135,22 +132,42 @@ li a {
     text-align: center;
 }
 
+.card:hover {
+    background-color: #0172bb;
+    color:#eaeaea
+}
+
 button {
     border-radius: 8px;
     border: 1px solid #0172bb;
     background-color: #0172bb;
     padding: 10px;
     justify-content: center;
-}
-
-button a {
+    width: 200px;
+    margin: 0 auto;
     text-decoration: none;
     color: #eaeaea;
 }
 
-footer p {
-    margin: 6px;
+button:hover {
+    border: 1px solid #856404;
+    background-color: #856404;
+    color: #eaeaea;
+}
 
+footer a {
+    display: block;
+    margin: 4px;
+    text-decoration: none;
+    color: #eaeaea;
+}
+
+footer a:hover {
+    color: #eec802;
+}
+
+footer p {
+    margin: 4px;
 }
 
 footer {
