@@ -78,7 +78,14 @@ ul li {
     padding: 0 20px;
 }
 
+.current {
+    text-decoration: underline;
+}
 
+.dropdown-item:hover {
+    color: #002e4b;
+    text-decoration: underline;
+}
 
 li a {
     text-decoration: none;
@@ -88,7 +95,7 @@ li a {
 }
 
 li a:hover {
-    color: #eec802;
+    color: #002e4b;
 }
 
 .callout {
@@ -134,7 +141,7 @@ li a:hover {
 
 .card:hover {
     background-color: #0172bb;
-    color:#eaeaea
+    color:#eaeaea;
 }
 
 button {
@@ -150,8 +157,8 @@ button {
 }
 
 button:hover {
-    border: 1px solid #856404;
-    background-color: #856404;
+    border: 1px solid #002e4b;
+    background-color: #002e4b;
     color: #eaeaea;
 }
 

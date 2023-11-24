@@ -11,3 +11,5 @@ for (let i = 0; i < card.length; i++) {
     });
     
 }
+
+
