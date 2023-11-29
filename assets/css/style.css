@@ -144,7 +144,7 @@ li a:hover {
     color:#eaeaea;
 }
 
-button {
+.services button {
     border-radius: 8px;
     border: 1px solid #0172bb;
     background-color: #0172bb;
@@ -156,7 +156,7 @@ button {
     color: #eaeaea;
 }
 
-button:hover {
+.services button:hover {
     border: 1px solid #002e4b;
     background-color: #002e4b;
     color: #eaeaea;
