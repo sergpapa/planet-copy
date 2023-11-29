@@ -53,7 +53,7 @@ section {
     background-color: #0172bb;
 }
 
-.bg-gold {
+.services .bg-gold {
     background-color: #eec802;
     border: 1px solid #eec802;
     color: #856404;
@@ -62,9 +62,6 @@ section {
 
 /*  -----------   Nav */
 
-.logo {
-    display: inline-block;
-}
 
 .nav-list {
     display: flex;
@@ -230,5 +227,10 @@ footer {
 
     .footer-grid {
         grid-template-columns: 1fr;
+    }
+
+    .logo {
+        width: 189px;
+        height: 63px;
     }
 }
